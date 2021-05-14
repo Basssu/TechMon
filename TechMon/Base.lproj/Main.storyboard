@@ -556,6 +556,9 @@
                                                                         <state key="normal" title="ファイア" backgroundImage="gold_button.png">
                                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
+                                                                        <connections>
+                                                                            <action selector="fireAction" destination="O8K-Hi-b28" eventType="touchUpInside" id="eke-A3-HvE"/>
+                                                                        </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwL-Vs-tkh">
                                                                         <rect key="frame" x="266" y="0.0" width="108" height="98.5"/>
@@ -563,6 +566,9 @@
                                                                         <state key="normal" title="ためる" backgroundImage="gold_button.png">
                                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
+                                                                        <connections>
+                                                                            <action selector="tameruAction" destination="O8K-Hi-b28" eventType="touchUpInside" id="DLQ-Z5-cSG"/>
+                                                                        </connections>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
@@ -623,6 +629,7 @@
                         <outlet property="playerImageView" destination="arZ-7h-SXD" id="iZ6-AB-tt2"/>
                         <outlet property="playerMPLabel" destination="GkL-gB-qs0" id="zig-Qv-dfb"/>
                         <outlet property="playerNameLabel" destination="aIk-uw-8Sx" id="UnA-lf-eCV"/>
+                        <outlet property="playerTPLabel" destination="C3O-hn-QU7" id="XvS-OG-nAk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6aA-Vs-ltx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
